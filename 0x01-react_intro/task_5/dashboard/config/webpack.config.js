@@ -24,6 +24,10 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: 'image-webpack-loader',
+	      options: {
+	        bypassOnDebug: true,
+	        disable: true,
+	      },
             },
           },
         ],
